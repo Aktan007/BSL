@@ -8,15 +8,14 @@ def main():
         bst.insert(k, v)
 
     print('Inorder items:', list(bst.inorder_items()))
-    print('Search 40 ->', bst.search(40))
-    print('Height ->', bst.height())
-    print('Is balanced ->', bst.is_balanced())
+    print('Search 40: ', bst.search(40))
+    print('Height: ', bst.height())
+    print('Is balanced: ', bst.is_balanced())
 
-    print('Delete 70 ->', bst.delete(70))
+    print('Delete 70: ', bst.delete(70))
     print('Inorder after delete:', list(bst.inorder_items()))
-    print('Height after delete ->', bst.height())
-    print('Is balanced after delete ->', bst.is_balanced())
-
+    print('Height after delete: ', bst.height())
+    print('Is balanced after delete: ', bst.is_balanced())
 
 if __name__ == '__main__':
     main()
